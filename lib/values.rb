@@ -10,5 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   grocery_values = groceries.values
-  (grocery_values.join(", ")).
+  (grocery_values.join(", ")).split("")
 end
